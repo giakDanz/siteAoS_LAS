@@ -1,0 +1,208 @@
+@import url('https://css.gg/css');
+@font-face {
+  font-family: "Helvetica Ultra Light";
+  src: url('/stylesheets/Fonts/HelveticaNeueLT25UltraLight.woff') format('woff');
+}
+@font-face {
+  font-family: "Helvetica Light";
+  src: url('/stylesheets/Fonts/HelveticaNeueLT45Light.woff') format('woff');
+  font-weight: 100
+}
+@font-face {
+  font-family: 'Helvetica Medium';
+  src: url('/stylesheets/Fonts/HelveticaNeueLT65Medium.woff') format('woff');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Helvetica Bold';
+  src: url('/stylesheets/Fonts/HelveticaNeueLT75Bold.woff') format('woff');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Helvetica Heavy';
+  src: url('/stylesheets/Fonts/HelveticaNeueLT85Heavy.woff') format('woff');
+  font-weight: 900;
+}
+
+.izq {
+  position: fixed;
+  height: 100%;
+  width: 25%;
+  background: radial-gradient(circle at top left,#01345B,#00111E);
+}
+
+.izq ul li{
+  list-style: none;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-right: 20px;
+  font-family: 'Helvetica Ultra Light', sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 1.8em;
+  color: #FFFFFF;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.botones {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  padding: 15px;
+  width: 100%;
+  margin: 15px;
+  height: auto;
+  position: absolute;
+}
+.submenu ul{
+  display: inline-flex;
+  margin: -25px;
+  margin-top: -50px;
+  margin-bottom: -30px;
+  font-family: 'Helvetica Light', sans-serif;
+  font-size: 14px;
+  line-height: 1.8em;
+}
+.submenu ul li {
+  list-style: none;
+  margin: 0px 20px;
+  cursor: pointer;
+}
+
+.t1 {
+  margin-left: 30px;
+  margin-bottom: -10px;
+  margin-top: 30px;
+  font-family: 'Helvetica Ultra Light';
+  font-size: 60px;
+  line-height: 0.5em;
+  color: #252525;
+}
+.t2 {
+  margin-left: 30px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  font-family: 'Helvetica Medium', sans-serif;
+  font-size: 60px;
+  line-height: 0.5em;
+  color:#252525;
+}
+.t3 {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-top: 16px;
+  font-family: 'Helvetica Light';
+  font-size: 25px;
+  line-height: 0.5em;
+  color: #252525;
+  font-weight: lighter;
+}
+
+.subtitulo {
+  font-family: 'Helvetica Medium';
+  font-size: 18px;
+  line-height: 2em;
+}
+
+.redes li{
+  list-style: none;
+  align-content: bottom;
+}
+.facebook {
+  float: left;
+  position: absolute;
+  left: 20%;
+  bottom: 5%;
+
+}
+.twitch {
+  float: left;
+  position: absolute;
+  left: 40%;
+  bottom: 5%;
+}
+.youtube {
+  float: left;
+  position: absolute;
+  left: 60%;
+  bottom: 5%;
+}
+.hola{
+  font-family: 'Helvetica Light', sans-serif;
+  font-size: 40px;
+  line-height: 1em;
+  color: #000000;
+}
+.texto{
+  font-family: 'Helvetica Light', sans-serif;
+  font-size: 16px;
+  line-height: 1.8em;
+  color: #000000;
+  margin: 30px;
+}
+.nota {
+  font-family: 'Helvetica Light', sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1.8em;
+  color: #969696;
+}
+.tag {
+  font-family: 'Helvetica Light', sans-serif;
+  font-size: 14px;
+  line-height: 0.8em;
+  color: #565656;
+}
+.categoria {
+  font-family: 'Helvetica Roman', sans-serif;
+  font-size: 18px;
+  line-height: 0.6em;
+  color: #565656;
+}
+.info {
+  font-family: 'Helvetica Ultra Light', sans-serif;
+  font-size: 18px;
+  line-height: 0.8em;
+  color: #000000;
+}
+.texto li{
+  list-style: none;
+}
+
+.social i {
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+#disc_negro {
+  margin-right: 15px;
+}
+.meta_btn{
+  text-decoration: none;
+  color:#000000;
+  border: 1px solid;
+  border-radius: 6px;
+}
+.meta_btn span{
+  display: inline;
+  padding: 20px;
+}
+.registro_btn{
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.registro_btn span{
+  text-decoration: none;
+  display: inline;
+  padding: 20px;
+}
+.discord_btn{
+  text-decoration: none;
+  color: #7289DA;
+}

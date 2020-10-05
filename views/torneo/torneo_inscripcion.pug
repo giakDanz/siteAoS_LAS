@@ -1,0 +1,70 @@
+extends ../layout/layoutBases
+block content
+    .texto
+        form
+            label.tag(for='fname') Nombre y Apellido
+            br
+            input#fname(name='fname' type='text' size='50')
+            br
+            label.tag(for='fname') País
+            br
+            select#pais(name='pais')
+                option(value='argentina') Argentina
+                option(value='chile') Chile
+                option(value='colombia') Colombia
+                option(value='mexico') México
+                option(value='peru') Perú
+            br
+            hr
+            label.tag(for='fname') Facción
+            br
+            select#faccion(name='faccion')
+                option(value='argentina') Beast of Chaos
+                option(value='chile') Blade of Khorne
+                option(value='colombia') Cities of Sigmar
+                option(value='mexico') Daughters of Khaine
+                option(value='peru') Disciples of Tzeentch
+                option(value='argentina') Flesh-eater Courts
+                option(value='chile') Fyreslayers
+                option(value='colombia') Gloomspite Gitz
+                option(value='mexico') Hedonites of Slaanesh
+                option(value='peru') Idoneth Deepkin
+                option(value='argentina') Kharadron Overlords
+                option(value='chile') Legion of Nagash
+                option(value='colombia') Lumineth Realm-lords
+                option(value='mexico') Maggotkin of Nurgle
+                option(value='peru') Nighthaunt
+                option(value='argentina') Ogre Mawtribes
+                option(value='chile') Orruk Warclan
+                option(value='colombia') Ossiarchs Bonereapers
+                option(value='mexico') Seraphon
+                option(value='peru') Skaven
+                option(value='peru') Slaves to Darkness
+                option(value='argentina') Stormcast Eternals
+                option(value='chile') Sylvaneth
+            br
+            hr
+            label.tag(for='fname') WhatsApp
+            br
+            input(type='tel')
+            br
+            label.tag(for='fname') Discord
+            br
+            input(type='text')
+            br
+            label.tag(for='fname') Steam ID
+            br
+            input(type='text')
+            br
+            label.tag(for='fname') E-Mail
+            br
+            input(type='email' size='50')
+            br
+            hr
+            label.tag(for='fname') Subir lista
+            br
+            input(type='file')
+            br
+            p.nota *La lista tiene que estar en formato PDF y exportada desde Warscroll Builder.
+            hr
+            input(type='submit' value='Enviar')

@@ -1,0 +1,65 @@
+extends ../layout/layoutComunidad
+content block
+    .texto
+        p
+            | Registra un evento de Warhammer: Age of Sigmar en tu localidad, ya sea vía online o presencial. Si eres administrador de una tienda relacionada a artículos de wargames, te invitamos a agregar los datos de la misma para facilitar la información a nuevos jugadores. Asimismo podrán ubicarte quienes anden en búsqueda de un contrincante o un evento en tu región.
+        form
+            label.tag(for='fname') Nombre del Torneo/Evento
+            br
+            input#fname(name='fname' type='text' size='50')
+            br
+            label.tag(for='fname') Fecha del Evento
+            br
+            input(type='date')
+            br
+            label.tag(for='fname') País
+            br
+            select#pais(name='pais')
+                option(value='argentina') Argentina
+                option(value='chile') Chile
+                option(value='colombia') Colombia
+                option(value='mexico') México
+                option(value='peru') Perú
+            br
+            hr
+            label.tag(for='fname') Tipo de Juego (Puntos)
+            br
+            input(type='radio')
+            | Vanguard
+            br
+            input(type='radio')
+            | Battlehost
+            br
+            input(type='radio')
+            | Warhost
+            br
+            hr
+            label.tag(for='fname') Tienda/Organizador
+            br
+            label.tag(for='fname') Nombre de la Tienda
+            br
+            input(type='text' size='50')
+            br
+            hr
+            label.tag(for='fname') Podio
+            br
+            p
+                | Indica que facciones ocuparon el podio en el evento y sube la lista que jugó (en formato PDF).
+            label.tag(for='fname') Primero
+            br
+            input(type='text' size='30')
+            input(type='file')
+            br
+            label.tag(for='fname') Segundo
+            br
+            input(type='text' size='30')
+            input(type='file')
+            br
+            label.tag(for='fname') Tercero
+            br
+            input(type='text' size='30')
+            input(type='file')
+            br
+            hr
+            input(type='submit')
+    script(src='https://code.jquery.com/jquery-3.5.1.min.js')

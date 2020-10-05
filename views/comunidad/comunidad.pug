@@ -1,0 +1,20 @@
+extends ../layout/layoutComunidad
+block content
+    .texto
+        p
+            | Aquí podrás encontrar la información de los torneos presenciales y digitales de Warhammer: Age of Sigmar que tengan lugar en nuestra región.
+        hr
+        nav.subtitulo Latinoamérica
+        nav.subtitulo Argentina
+        nav.subtitulo Chile
+        nav.subtitulo Colombia
+        nav.subtitulo México
+        nav.subtitulo Perú
+        hr
+        p
+            | Si eres administrador regional podrás registrar los torneos de tu país o región aquí:
+        li
+            a(href='comunidad_form.html')
+                button.btn.btn-outline-dark(type='button') Registro de Torneo
+    script(src='https://code.jquery.com/jquery-3.5.1.min.js')
+    script(src='/javascript/jquery.js')

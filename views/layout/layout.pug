@@ -1,0 +1,51 @@
+doctype html
+html
+  head
+    title Age of Sigmar Latinoamérica
+    link(rel='stylesheet' href='/stylesheets/style.css')
+    link(href='https://css.gg/css' rel='stylesheet')
+    link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css' integrity='sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z' crossorigin='anonymous')
+    script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js' integrity='sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV' crossorigin='anonymous')
+    script(src='/jQueryAssets/jquery-1.11.1.min.js')
+    script(src='/jQueryAssets/jquery.ui-1.10.4.autocomplete.min.js')
+    link(href='/jQueryAssets/jquery.ui.core.min.css' rel='stylesheet' type='text/css')
+    link(href='/jQueryAssets/jquery.ui.theme.min.css' rel='stylesheet' type='text/css')
+    link(href='/jQueryAssets/jquery.ui.autocomplete.min.css' rel='stylesheet' type='text/css')
+    link(href='/jQueryAssets/jquery.ui.menu.min.css' rel='stylesheet' type='text/css')
+
+
+
+  body
+    .row.no-gutters
+      .col.no-gutters
+        .izq.d-flex.justify-content-center.align-items-center
+          ul
+            a(href='/')
+              li
+                img(src='/images/logo.png' alt='Age of Sigmar Latinoamérica')
+            a(href='/torneo' style='text-decoration:none;')
+              li
+                font(color='white') TORNEO LAT
+            a(href='#' style='text-decoration:none;')
+              li
+                font(color='white') META Y LISTAS
+            a(href='#' style='text-decoration:none;')
+              li
+                font(color='white') HOBBY
+            a(href='/comunidad' style='text-decoration:none;')
+              li
+                font(color='white') COMUNIDAD
+            a(href='/contacto' style='text-decoration:none;')
+              li
+                font(color='white') CONTACTO
+          .redes
+            img.facebook(src='/images/facebook_blanco.png' width='20' alt='')
+            img.twitch(src='/images/twitch_blanco.png' width='25' alt='')
+            img.youtube(src='/images/youtube_blanco.png' width='25' alt='')
+      .col-md-9.no-gutters
+        .der
+          h1#t1.t1 torneo'20
+          h2#t2.t2 latinoamericano
+          h3#t3.t3 Warhammer: Age of Sigmar
+          hr(size='5px' color='#00111e')
+          block contentMenu

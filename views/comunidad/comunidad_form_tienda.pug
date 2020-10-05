@@ -1,0 +1,51 @@
+extends ../layout/layoutComunidad
+block content
+    .texto
+        p.hola Registro de Tienda
+        p
+            | En esta plataforma queremos centralizar a los jugadores de Warhammer: Age of Sigmar de latinoamérica. Si eres dueño(a) o administrador(a) de una tienda relacionada, te invitamos a registrarte. De esta manera los nuevos reclutas podrán encontrar tu tienda, saber dónde adquirir los productos relacionados y dónde jugar o conocer más jugadores de la comunidad.
+        form
+            label.tag(for='fname') Nombre de la tienda
+            br
+            input#fname(name='fname' type='text' size='50')
+            br
+            label.tag(for='fname') País
+            br
+            select#pais(name='pais')
+                option(value='argentina') Argentina
+                option(value='chile') Chile
+                option(value='colombia') Colombia
+                option(value='mexico') México
+                option(value='peru') Perú
+            br
+            label.tag(for='fname') Ciudad
+            br
+            input(type='text' size='20')
+            br
+            label.tag(for='fname') Dirección
+            br
+            input(type='text' size='50')
+            br
+            label.tag(for='fname') Teléfono
+            br
+            input(type='tel')
+            br
+            label.tag(for='fname') E-Mail
+            br
+            input(type='email' size='50')
+            br
+            label.tag(for='fname') Sitio web
+            br
+            input(type='url' size='50')
+            br
+            label.tag(for='fname') Página de Facebook
+            br
+            input(type='url' size='50')
+            br
+            label.tag(for='fname') Logotipo
+            br
+            input(type='file')
+            br
+            p.nota *Archivo en formato JPG(fondo blanco) o PNG. Tamaño 500px x 500px (aprox.).
+            hr
+            input(type='submit' value='Enviar')
