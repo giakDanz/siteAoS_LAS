@@ -12,6 +12,13 @@
   <component name="ChangeListManager">
     <list default="true" id="c1efe5c6-387d-4233-a4ff-10573db9596c" name="Default Changelist" comment="AoS_LAS 0.03.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/HelveticaNeueLT25UltraLight.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/HelveticaNeueLT25UltraLight.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/HelveticaNeueLT45Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/HelveticaNeueLT45Light.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/HelveticaNeueLT46LightItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/HelveticaNeueLT46LightItalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/HelveticaNeueLT55Roman.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/HelveticaNeueLT55Roman.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/HelveticaNeueLT65Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/HelveticaNeueLT65Medium.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/HelveticaNeueLT75Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/HelveticaNeueLT75Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/HelveticaNeueLT85Heavy.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/HelveticaNeueLT85Heavy.woff" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,18 +67,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WebstormProjects\AoS_LAS\views\index" />
-      <recent name="D:\WebstormProjects\AoS_LAS\views\bases" />
-      <recent name="D:\WebstormProjects\AoS_LAS\views\contacto" />
-      <recent name="D:\WebstormProjects\AoS_LAS\views\comunidad" />
-      <recent name="D:\WebstormProjects\AoS_LAS\views\layout" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WebstormProjects\AoS_LAS\public" />
       <recent name="D:\WebstormProjects\AoS_LAS\public\javascripts" />
       <recent name="D:\WebstormProjects\AoS_LAS\public\images" />
       <recent name="D:\WebstormProjects\AoS_LAS\public\stylesheets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebstormProjects\AoS_LAS\public" />
+      <recent name="D:\WebstormProjects\AoS_LAS\views\index" />
+      <recent name="D:\WebstormProjects\AoS_LAS\views\bases" />
+      <recent name="D:\WebstormProjects\AoS_LAS\views\contacto" />
+      <recent name="D:\WebstormProjects\AoS_LAS\views\comunidad" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -86,7 +93,7 @@
       <workItem from="1601765016524" duration="15283000" />
       <workItem from="1601830126372" duration="14116000" />
       <workItem from="1601871197779" duration="1561000" />
-      <workItem from="1601879991893" duration="721000" />
+      <workItem from="1601879991893" duration="1547000" />
     </task>
     <task id="LOCAL-00001" summary="AoS_LAS 0.02">
       <created>1601871756435</created>
@@ -102,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601880139229</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="AoS_LAS 0.03.1">
+      <created>1601880730981</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601880730981</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,10 +173,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601764999828" />
-    <state x="274" y="94" key="Vcs.Push.Dialog.v2" timestamp="1601880568527">
+    <state x="274" y="94" key="Vcs.Push.Dialog.v2" timestamp="1601880738050">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="274" y="94" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601880568527" />
+    <state x="274" y="94" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601880738050" />
     <state x="499" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601855910121">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

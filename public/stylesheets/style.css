@@ -1,26 +1,26 @@
 @import url('https://css.gg/css');
 @font-face {
   font-family: "Helvetica Ultra Light";
-  src: url(../stylesheets/Fonts/HelveticaNeueLT25UltraLight.woff) format('woff');
+  src: url('/fonts/HelveticaNeueLT25UltraLight.woff') format('woff');
 }
 @font-face {
   font-family: "Helvetica Light";
-  src: url(../stylesheets/Fonts/HelveticaNeueLT45Light.woff) format('woff');
+  src: url('/fonts/HelveticaNeueLT45Light.woff') format('woff');
   font-weight: 100
 }
 @font-face {
   font-family: 'Helvetica Medium';
-  src: url(../stylesheets/Fonts/HelveticaNeueLT65Medium.woff) format('woff');
+  src: url('/fonts/HelveticaNeueLT65Medium.woff') format('woff');
   font-weight: 500;
 }
 @font-face {
   font-family: 'Helvetica Bold';
-  src: url(../stylesheets/Fonts/HelveticaNeueLT75Bold.woff) format('woff');
+  src: url('/fonts/HelveticaNeueLT75Bold.woff') format('woff');
   font-weight: 700;
 }
 @font-face {
   font-family: 'Helvetica Heavy';
-  src: url(../stylesheets/fonts/HelveticaNeueLT85Heavy.woff) format('woff');
+  src: url('/fonts/HelveticaNeueLT85Heavy.woff') format('woff');
   font-weight: 900;
 }
 
